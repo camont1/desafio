@@ -261,7 +261,7 @@ if __name__ == "__main__":
     def debug_merge_by_key():
         url = 'https://docs.google.com/spreadsheets/d/1N6JFMIQR71HF5u5zkWthqbgpA8WYz_0ufDGadeJnhlo/'
         df = create_dataframes_from_csv(url=url,gids=['0','822929440'])
-        DF = merge_by_key(df[0],df[1],how=inner)
+        DF = merge_by_key(df[0],df[1],how='inner')
         return (len(DF) == len(df[1]))
     
     #------------------------------------------------
