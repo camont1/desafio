@@ -4,13 +4,12 @@ Desafio de migração de dados
 
 ## Organização dos arquivos do pacote desafio:
 
+```bash
 └── desafio
-
     ├── __init__.py
-	
     ├── LICENSE
-	
     └── README.md
+```
 
 ## Requerimentos:
 
