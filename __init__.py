@@ -140,7 +140,7 @@ def sanitize_money(money):
 
 def sanitize_discount(desconto):
     """
-    retira os caracteres dos valores de desconto, substituindo-os por 0
+    retira os caracteres inválidos dos valores de desconto, substituindo-os por 0
     
     parametro:
     desconto :: valor do desconto
@@ -169,7 +169,7 @@ def convert_tostring(var_input):
     return "%.2f" % var_input
 
 
-def final_value_discounted(value,discount='0'):
+def final_value(value,discount='0'):
     """
     calcula o valor com o desconto
     

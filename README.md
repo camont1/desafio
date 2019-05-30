@@ -43,7 +43,7 @@ Desafio de migração de dados
 ## Operações com números (int e float) e strings:
  'convert_tointeger' 
  'convert_tostring'
- 'final_value_discounted' # cálculo do valor com desconto
+ 'final_value' # cálculo do valor com desconto
 
 ## Associação de 
  'merge_by_key'
