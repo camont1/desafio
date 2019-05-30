@@ -30,15 +30,14 @@ Desafio de migração de dados
 ## Carregando dataframes:
  'create_dataframes_from_csv'
  'create_dataframes_from_excel'
+ 'download_data'
+
 
 ## Sanitização:
  'sanitize_dataframes_nan'
  'sanitize_discount'
  'sanitize_money'
  'sanitize_phone_brazil'
-
-## Extração de arquivos
- 'download_data'
  
 ## Operações com números (int e float) e strings:
  'convert_tointeger' 
