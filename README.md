@@ -28,9 +28,9 @@ Desafio de migração de dados
 ```python
 
 ## Carregando dataframes:
+ 'download_data'
  'create_dataframes_from_csv'
  'create_dataframes_from_excel'
- 'download_data'
 
 
 ## Sanitização:
