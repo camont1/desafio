@@ -169,6 +169,7 @@ def convert_tostring(var_input):
     return "%.2f" % var_input
 
 
+
 def final_value(value,discount='0'):
     """
     calcula o valor com o desconto
